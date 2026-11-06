@@ -1,0 +1,84 @@
+
+# =========================
+# General
+# =========================
+HELP.md
+*.log
+*.tmp
+*.swp
+*.bak
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Environment variables / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+
+# =========================
+# Java / Maven / Spring Boot
+# =========================
+target/
+build/
+*.class
+*.jar
+*.war
+
+# Keep Maven Wrapper scripts and configuration
+!.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# STS / Eclipse
+# =========================
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# =========================
+# IntelliJ IDEA
+# =========================
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# =========================
+# NetBeans
+# =========================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# =========================
+# VS Code
+# =========================
+.vscode/*
+!.vscode/extensions.json
+
+# =========================
+# Node.js / Next.js
+# =========================
+node_modules/
+.next/
+out/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# =========================
+# Temporary files
+# =========================
+tempCodeRunnerFile.java
